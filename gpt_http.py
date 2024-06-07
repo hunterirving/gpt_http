@@ -46,7 +46,7 @@ HTML_TEMPLATE = """
 </head>
 <body>
     <form method="post" action="/">
-        <input type="text" size="49" name="command" required>
+        <input type="text" size="49" name="command" required autocomplete="off">
         <input type="submit" value="Submit">
         <select id="model" name="model" onchange="this.form.submit()">
             <option value="gpt-4o" {{ 'selected' if selected_model == 'gpt-4o' else '' }}>GPT-4o</option>
