@@ -2,6 +2,7 @@
 
 GPT_HTTP is a Flask-based web application that lets users interact with OpenAI's GPT models through a web interface.
 It is designed to be compatible with vintage systems, including early Macintoshes, by formatting responses with characters and HTML tags suitable for older machines.
+<hr>
 
 ![ChatGPT client running on a vintage Macintosh Plus](readme_images/macintosh_plus.jpg)
 
