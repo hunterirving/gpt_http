@@ -1,7 +1,7 @@
 # GPT_HTTP (ChatGPT for Vintage Web Browsers)
 
-This is a simple Flask-based web application that allows users to interact with OpenAI's GPT models through a web interface.
-This application is designed to be compatible with vintage machines, including early Macintoshes, by ensuring responses are formatted with HTML tags and ASCII characters suitable for older systems.
+GPT_HTTP is a Flask-based web application that allows users to interact with OpenAI's GPT models through a web interface.
+It is designed to be compatible with vintage machines, including early Macintoshes, by ensuring responses are formatted with HTML tags and ASCII characters suitable for older systems.
 
 ![ChatGPT client running on a vintage Macintosh Plus](readme_images/macintosh_plus.jpg)
 
@@ -56,16 +56,7 @@ This application is designed to be compatible with vintage machines, including e
 
 Open a web browser on your vintage machine and navigate to ```http://<ip_address_of_flask_server>:8080```,
 
-Note: Replace <ip_address_of_flask_server> with the actual IP address of the machine running the Flask server. Ensure both machines are connected to the same Wi-Fi network.
-
-### .gitignore
-
-Ensure your `.gitignore` file includes the following entries to avoid committing sensitive information and virtual environment files:
-
-```
-config.py
-venv/
-```
+Replace <ip_address_of_flask_server> with the actual IP address of the machine running the Flask server. Ensure both machines are connected to the same Wi-Fi network.
 
 ### Deactivating the Virtual Environment
 
@@ -73,6 +64,16 @@ When you're done working with this project, deactivate the virtual environment w
 
 ```bash
 deactivate
+```
+
+### .gitignore
+
+Ensure your .gitignore file includes the following entries to avoid committing sensitive information, virtual environment files, and unnecessary cache files:
+
+```
+config.py
+venv/
+__pycache__/
 ```
 
 ## Contributing
