@@ -50,7 +50,7 @@ HTML_TEMPLATE = """
         <input type="submit" value="Submit">
         <select id="model" name="model">
             <option value="gpt-4o" {{ 'selected' if selected_model == 'gpt-4o' else '' }}>GPT-4o</option>
-            <option value="gpt-4" {{ 'selected' if selected_model == 'gpt-4-turbo' else '' }}>GPT-4</option>
+            <option value="gpt-4-turbo" {{ 'selected' if selected_model == 'gpt-4-turbo' else '' }}>GPT-4</option>
             <option value="gpt-3.5-turbo" {{ 'selected' if selected_model == 'gpt-3.5-turbo' else '' }}>GPT-3.5</option>
         </select>
     </form>
