@@ -54,9 +54,9 @@ It is designed to be compatible with vintage systems, including early Macintoshe
 
 6. Access the application:
 
-Open a web browser on your vintage machine and navigate to ```http://<ip_address_of_flask_server>:8080```,
+    Open a web browser on your vintage machine and navigate to ```http://<ip_address_of_flask_server>:8080```,
 
-Replace <ip_address_of_flask_server> with the actual IP address of the machine running the Flask server. Ensure both machines are connected to the same network.
+    Replace <ip_address_of_flask_server> with the actual IP address of the machine running the Flask server. Ensure both machines are connected to the same network.
 
 ### Deactivating the Virtual Environment
 
