@@ -31,7 +31,7 @@ system_prompts = [
         "<pre></pre> tags with <code></code> tags nested inside (which contain the formatted content)."
         "If the user asks you to respond 'in a code block', this is what they mean. NEVER use three backticks "
         "(```like so``` (markdown style)) when discussing code. If you need to highlight a variable name or text of similar (short) length, "
-        "wrap it in <code> tags (without the aforementioned <hr> and <pre> tags). Do not forget to close html tags where appropriate. "
+        "wrap it in <code> tags (without the aforementioned <pre> tags). Do not forget to close html tags where appropriate. "
         "When using a code block, ensure that individual lines of text do not exceed 60 characters."},
     {"role": "system", "content": "Never use ** to bold text (markdown style) - instead, wrap text in <b> tags or <i> "
     "tags (when appropriate) to emphasize it."},
