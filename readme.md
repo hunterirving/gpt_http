@@ -20,7 +20,7 @@ It is designed to be compatible with vintage machines, including early Macintosh
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/gpt_http.git
+   git clone https://github.com/hunterirving/gpt_http.git
    cd gpt_http
    ```
 
@@ -56,7 +56,7 @@ It is designed to be compatible with vintage machines, including early Macintosh
 
 Open a web browser on your vintage machine and navigate to ```http://<ip_address_of_flask_server>:8080```,
 
-Replace <ip_address_of_flask_server> with the actual IP address of the machine running the Flask server. Ensure both machines are connected to the same Wi-Fi network.
+Replace <ip_address_of_flask_server> with the actual IP address of the machine running the Flask server. Ensure both machines are connected to the same network.
 
 ### Deactivating the Virtual Environment
 
