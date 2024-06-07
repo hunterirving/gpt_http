@@ -79,3 +79,7 @@ __pycache__/
 ## Contributing
 
 Feel free to submit issues or pull requests for improvements and bug fixes.
+
+## License
+
+This project is licensed under the [GNU General Public License v3.0](LICENSE.txt).
